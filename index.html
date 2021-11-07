@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Josh</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <meta name="viewport" content="width =device-width, initial-scale =1">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Poppins&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+</head>
+<body>
+
+    <form action="https://formsubmit.co/kerzjhon@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New email woooo!">
+        <input type="hidden" name="_next" value="https://joshxing.github.io/thankyou.html">
+    </form>
+
+<section id="banner">
+    <div class="banner-text">
+        <h1>Hi, My name is</h1>
+        <h2>Josh</h2>
+        <h1>A Frontend Software engineer</h1>
+        <div class="banner-btn">
+             
+        </div>
+    </div>
+    
+    <img src="wave1.png.png" class="bottom-img">
+
+</section>
+
+      
+<div id="sideNav">
+    <nav>
+    <ul>
+        <li id="navItem1"><a href="#banner">Home</a></li>
+        <li id="navItem2"><a href="#feature">About</a></li>
+        <li id="navItem3"><a href="#service">Skills</a></li>
+        <li id="navItem4"><a href="#work_section">Work</a></li>
+        <li id="navItem5"><a href="#footer">Contact</a></li>
+    </ul>
+    </nav>
+</div>
+<div id="menuBtn">
+    <img src="menu.jpg" id="menu">
+</div>
+
+<!-- Features -->
+
+<section id="feature">
+<div class="title-text">
+<h1>About</h1>
+</div>
+<div class="feature-box">
+     <div class="features">
+         <div class="features-desc">
+            <div class="feature-icon">
+                <i class="fa fa-check"></i>
+            </div>
+            <div class="feature-text">
+                <p>Hello! I'm a Frontend software engineer specializing in developing solutions with JavaScript, Python, and React.
+
+                    I also work on freelance projects including full stack software development, digital marketing, web and graphic design, video production.
+                    
+                    I've helped small and medium-size businesses and organizations grow and streamline their processes, improve their online presence, and scale their operations through software solutions.
+                    
+                    When I'm not writing code, I enjoy reading and learning about emerging technologies, minimalism, and startup culture.</p>
+            </div>
+         </div>
+     </div>
+    <div class="features-img">
+         <img src="img5.jpg">
+    </div>
+  </div>
+
+</section>
+
+<!--Service  -->
+
+<section id="service">
+    <div class="title-text">
+    <h1>My Skills set</h1>
+    </div>
+    <div class="service-box">
+        <div class="single-service">
+            <img src="img6.jpg">
+            <div class="overlay"></div>
+        </div>
+        <div class="single-service">
+            <img src="img12.jpg">
+            <div class="overlay"></div>
+        </div>
+        <div class="single-service">
+            <img src="img11.jpg">
+            <div class="overlay"></div>
+        </div>
+        <div class="single-service">
+            <img src="img9.jpg">
+            <div class="overlay"></div>
+    </div>
+
+</section>
+
+<!--===== WORK =====-->
+
+<section id="work_section" id="work">
+    <div class="title-text">
+    <h1>Work</h1>
+    </div>
+    <div class="work_container bd-grid">
+        <div class="work_img">
+            <img src="work6.jpg.jpg" alt="">
+        </div>
+            <div class="work_img">
+                <img src="work4.jpg" alt="">
+        </div>
+            <div class="work_img">
+                <img src="work3.jpg" alt="">
+        </div>
+            <div class="work_img">
+                <img src="work5.jpg" alt="">
+        </div>
+</div>
+</section>
+
+<!--===== CONTACT =====-->
+
+<section class="contact section" id="contact">
+    <h2 class="section-title">Contact</h2>
+
+    <div class="contact_container bd-grid">
+        <form action="https://formsubmit.co/kerzjhon@gmail.com" class="contact_form" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="New email woooo!">
+            <input type="hidden" name="_next" value="https://joshxing.github.io/thankyou.html">
+            <input type="name" placeholder="Name" class="contact_input" required>
+            <input type="Mail" placeholder="Email" class="contact_input" required>
+            <textarea name="" id="Message" cols="0" rows="10" placeholder="Message" class="contact_input" required  ></textarea>
+
+            <input type="submit" value="Send" class="contact_button button">
+        </form>
+    </div>
+</section>
+
+<!--===== FOOTER =====-->
+<footer id="footer" class="footer">
+    <p class="footer_title">Josh</p>
+
+    <div class="footer_social">
+        <a href="#" class="footer_icon"><i class='bx bxl-facebook-circle'></i></a>
+        <a href="#" class="footer_icon"><i class='bx bxl-instagram'></i></a>
+    </div>
+    <p>&#169; 2021 copyright all right reserved</p>
+</footer>
+
+
+<script>
+    var menuBtn = document.getElementById("menuBtn")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+    var navItem = document.getElementById("navItem1")
+    var navItem = document.getElementById("navItem2")
+    var navItem = document.getElementById("navItem3")
+    var navItem = document.getElementById("navItem4")
+    var navItem = document.getElementById("navItem5")
+    
+    sideNav.style.right = "-250px";
+    
+    menuBtn.onclick = function(){
+        if (sideNav.style.right == "-250px"){
+             sideNav.style.right  = "0";
+        }
+        else{
+           sideNav.style.right = "-250px";
+        }
+    }
+
+    navItem1.onclick = function(){
+        sideNav.style.right = "-250px";
+    }
+    
+    navItem2.onclick = function(){
+        sideNav.style.right = "-250px";
+    }  
+
+    navItem3.onclick = function(){
+        sideNav.style.right = "-250px";
+    }  
+
+    navItem4.onclick = function(){
+        sideNav.style.right = "-250px";
+    }
+
+    navItem5.onclick = function(){
+        sideNav.style.right = "-250px";
+    }  
+
+    var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 1000,
+        speedAsDuration: true
+    });
+
+    </script>
+
+
+    <!--===== MAIN JS =====-->
+        <script src="main.js">
+        </script>
+    </body>
+</html>
